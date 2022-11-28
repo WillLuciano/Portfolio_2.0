@@ -1,26 +1,13 @@
-/* ---- reset ---- */
-
-body {
+* {
   margin: 0;
-  font:normal 75% Arial, Helvetica, sans-serif;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-canvas {
-  display: block;
-}
-
-/* ---- particles.js container ---- */
-#particles-js {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #b61924;
-  background-image: url("");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
-/* ---- stats.js ---- */
-
+#bkCanvas {
+ position: absolute;
+ top: 0; left: 0;
+ width: 100%;
+ height: 100%;
+ background: radial-gradient(#0b0296, #1c0cad);
 }
