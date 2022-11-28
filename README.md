@@ -12,6 +12,6 @@ A protfolio with a simplicty.
 https://WillLuciano.github.io/portfolio_2.0/
 
 ## Contribution
-Made with ❤️ by [your name]
+Made with ❤️ by [yours truly]
 
-### ©️2019 Run Buddy, Inc 
+### ©️2022 LuckyLu's Stuidio 
