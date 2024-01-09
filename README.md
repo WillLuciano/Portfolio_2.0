@@ -1,7 +1,7 @@
 # Portfolio_2.0
 A Start to creativity.
 ## Purpose
-A protfolio with a simplicty. 
+A portfolio with a simplicity. 
 
 ## Built With
 * HTML

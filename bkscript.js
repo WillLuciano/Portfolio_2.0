@@ -21,11 +21,11 @@ window.addEventListener('mousemove',
 
 // create particle
 class particle {
-  constructor(x, y, directionX, directiony, size, color) {
+  constructor(x, y, directionX, directionY, size, color) {
     this.x = x;
     this.y = y;
     this.directionX = directionX;
-    this.directionY = directiony;
+    this.directionY = directionY;
     this.size = size;
     this.color = color;
   }
@@ -36,7 +36,7 @@ class particle {
     ctx.fillStyle = 'linear-gradient(to bottom, #33ccff 0%, #669999 100%);'
     ctx.fill();
   }
-  // check particle position, check mouse position, move the partical, draw the partical
+  // check particle position, check mouse position, move the particle, draw the particle
   update() {
     if (this.x > canvas.width || this.x < 0 ) {
         this.directionX = -this.directionX;
@@ -44,7 +44,7 @@ class particle {
     if (this.y > canvas.width || this.y < 0 ) {
       this.directionY = -this.directionY;
     }
-    //checking collision detection - mouse & partical positions
+    //checking collision detection - mouse & particle positions
     let dx = mouse.x - this.x;
     let dy = mouse.y - this.y;
     let distance = Math.sqrt(dx*dx + dy*dy);
