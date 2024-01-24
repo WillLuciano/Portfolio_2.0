@@ -1,0 +1,11 @@
+{
+  "name": "portfolio_2.0",
+  "version": "1.0.0",
+  "description": "A Start to creativity.\r ## Purpose\r A portfolio with a simplicity.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
